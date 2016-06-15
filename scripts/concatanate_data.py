@@ -12,9 +12,9 @@ import pandas as pd
 
 #%% Import data
 
-proj_dir = r'D:\Windows\Users\tasichcm\Dropbox (ISEE Bangladesh)\Programming\Python\Projects\P32 Met'
-met_dir = os.path.join(proj_dir,'Data\Processed\met')
-csv_dir = os.path.join(proj_dir,'Data\Processed\csv')
+proj_dir = r'C:/Projects/Vanderbilt/p32_met/'
+met_dir = os.path.join(proj_dir,'data/processed/met')
+csv_dir = os.path.join(proj_dir,'data/processed/csv')
 
 #%% Initiliaze variables and create directories
 

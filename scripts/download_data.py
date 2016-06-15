@@ -12,7 +12,7 @@ import os
 
 #%% Import packages
 
-local_dir = r'D:\Windows\Users\tasichcm\Dropbox (ISEE Bangladesh)\Programming\Python\Projects\P32 Met\Data\Raw'
+local_dir = r'C:/Projects/Vanderbilt/p32_met/data/raw'
 local_files = os.listdir(local_dir)
 
 try:

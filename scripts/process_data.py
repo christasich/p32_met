@@ -11,8 +11,8 @@ import os,subprocess
 
 #%% Import data
 
-proj_dir = r'D:\Windows\Users\tasichcm\Dropbox (ISEE Bangladesh)\Programming\Python\Projects\P32 Met'
-in_data = os.path.join(proj_dir,'Data\Raw')
+proj_dir = r'C:/Projects/Vanderbilt/p32_met'
+in_data = os.path.join(proj_dir,'data/raw')
 
 #%% Initiliaze variables and create directories
 
@@ -21,7 +21,7 @@ runpkr00 = os.path.join(proj_dir,r'bin\runpkr00.exe')
 teqc = os.path.join(proj_dir,r'bin\teqc.exe')
 
 # Make directories
-out_data = os.path.join(proj_dir,'Data\Processed')
+out_data = os.path.join(proj_dir,'data/processed')
 tgd_dir = os.path.join(out_data,'tgd')
 obs_dir = os.path.join(out_data,'obs')
 met_dir = os.path.join(out_data,'met')
